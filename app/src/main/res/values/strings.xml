@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">PetEqualLife</string>
+
+    <drawable name="dog_group_1">@drawable/dog_round_1</drawable>
+    <drawable name="dog_group_2">@drawable/dog_round_2</drawable>
+    <drawable name="dog_group_3">@drawable/dog_round_3</drawable>
+    <drawable name="dog_group_4">@drawable/dog_round_4</drawable>
+    <drawable name="dog_group_5">@drawable/dog_round_5</drawable>
+    <drawable name="dog_group_6">@drawable/dog_round_6</drawable>
+    <drawable name="dog_group_7">@drawable/dog_round_7</drawable>
+
+    <drawable name="dog_r_1">@drawable/dog_6_1</drawable>
+    <drawable name="dog_r_2">@drawable/dog_6_2</drawable>
+    <drawable name="dog_r_3">@drawable/dog_6_3</drawable>
+    <drawable name="dog_r_4">@drawable/dog_6_4</drawable>
+    <drawable name="dog_r_5">@drawable/dog_6_5</drawable>
+    <drawable name="dog_r_6">@drawable/dog_6_6</drawable>
+    <drawable name="dog_r_7">@drawable/dog_6_7</drawable>
+
+    <drawable name="dog_choose_1">@drawable/dog_1</drawable>
+    <drawable name="dog_choose_2">@drawable/dog_2</drawable>
+    <drawable name="dog_choose_3">@drawable/dog_3</drawable>
+    <drawable name="dog_choose_4">@drawable/dog_4</drawable>
+    <drawable name="dog_choose_5">@drawable/dog_5</drawable>
+    <drawable name="dog_choose_6">@drawable/dog_6</drawable>
+    <drawable name="dog_choose_7">@drawable/dog_7</drawable>
+
+    <drawable name="dog_choose_1_baby">@drawable/dog_1_baby</drawable>
+    <drawable name="dog_choose_2_baby">@drawable/dog_2_baby</drawable>
+    <drawable name="dog_choose_3_baby">@drawable/dog_3_baby</drawable>
+    <drawable name="dog_choose_4_baby">@drawable/dog_4_baby</drawable>
+    <drawable name="dog_choose_5_baby">@drawable/dog_5_baby</drawable>
+    <drawable name="dog_choose_6_baby">@drawable/dog_6_baby</drawable>
+    <drawable name="dog_choose_7_baby">@drawable/dog_7_baby</drawable>
+
+    <string-array name="dog_group_name">
+        <item>미니어쳐 슈나우져</item>
+        <item>코카 스파니엘</item>
+        <item>보더콜리</item>
+        <item>시베리안 허스키</item>
+        <item>잉글리쉬 불도그</item>
+        <item>치와와</item>
+        <item>닥스훈트</item>
+    </string-array>
+
+    <string-array name="dog_group_info">
+        <item>- 사냥하거나 유해동물을 잡고 죽이기 위해 개량\n\n- 굴에 숨은 동물을 찾기 위해 대부분 키가 작고 땅을 잘판다(라틴어 "'"TERRA"'"는 굴 속 사냥이나, 땅 밑에 사는 작은 동물을 사냥 의미)\n\n- 끈질기고 거칠어서 한 번 물면 절대 놓치지 않음\n\n- 대부분의 원산지가 영국\n\n- 기질이 강하고, 분주하며</item>
+        <item>sample2</item>
+        <item>sample3</item>
+        <item>sample4</item>
+        <item>sample5</item>
+        <item>sample6</item>
+        <item>sample7</item>
+    </string-array>
+
+    <string-array name="dog_group_info2">
+        <item>쉽게 흥분하는 성격\n\n- 경계심이 강한 경비견이고, 이러한 성향 때문에 지나치게 짖을 수 있음</item>
+        <item>sample2_2</item>
+        <item>sample3_2</item>
+        <item>sample4_2</item>
+        <item>sample5_2</item>
+        <item>sample6_2</item>
+        <item>sample7_2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_background"
+    tools:context=".FinishPlayActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/finish_after_walk"
+        android:gravity="center"
+        android:text="산책 완료"
+        android:textColor="#252525"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/finish_dog"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dog_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finish_dog">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginLeft="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/home_round"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/dog_round_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/finish_small_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/community_dog"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/finish_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="똘똘이"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="호감도"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/finish_heart0"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/finish_heart1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/finish_heart2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/finish_heart3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/finish_heart4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="영상1"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finish_result0"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="-5"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="영상2"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finish_result1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="+8"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="영상3"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finish_result2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="+8"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/f_view"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:src="@drawable/finish_bar"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f_view">
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="총점"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finish_result3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="61"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/finish_present"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/finish_present"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/finish_map"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout9" />
+
+    <ImageView
+        android:id="@+id/finish_map"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/finish_map"
+        android:layout_marginRight="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout9" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/finish_exp"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구체설명"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/finish_explanation"/>
+
+        <Button
+            android:id="@+id/finish_home"
+            android:layout_marginLeft="10dp"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="홈으로 이동"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/finish_go_home"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

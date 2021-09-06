@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904257593361",
+    "firebase_url": "https://petequallife.firebaseio.com",
+    "project_id": "petequallife",
+    "storage_bucket": "petequallife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904257593361:android:d38480340e36e7282311b0",
+        "android_client_info": {
+          "package_name": "com.example.petequallife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904257593361-6no4nd6llnt0771ki51smirrrtc3dol4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petequallife",
+            "certificate_hash": "be9334d29328c5142ba31b0ed7aea3e712d32da7"
+          }
+        },
+        {
+          "client_id": "904257593361-be18c43uqvn9hv86ibonp0uhoimn93p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgCCzswKP3MXdynDOpUln_aFsx1NuRp88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904257593361-be18c43uqvn9hv86ibonp0uhoimn93p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

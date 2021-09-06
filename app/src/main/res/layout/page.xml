@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="- 사냥하거나 유해동물을\n잡고 죽이기 위해 개량\n\n- 굴에 숨은 동물을 찾기 위해\n대부분 키가 작고 땅을\n잘판다(라틴어 'TERRA'는 굴\n속 사냥이나, 땅 밑에 사는\n작은 동물을 사냥 의미)\n\n- 끈질기고 거칠어서 한 번\n물면 절대 놓치지 않음\n\n- 대부분의 원산지가 영국\n\n- 기질이 강하고, 분주하며"
+        android:textSize="17sp"
+        android:layout_width="250dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_height="370dp"/>
+
+    <ImageView
+        android:id="@+id/pagerimg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pager1"/>
+
+
+</LinearLayout>
